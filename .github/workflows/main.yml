@@ -6,7 +6,7 @@ on:
    branches: ["main"]
 
 env:
-  aws-region: us-east-2
+  aws-region: us-east-1
   
 jobs:
   terraform1:
