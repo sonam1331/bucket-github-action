@@ -8,5 +8,5 @@ resource "aws-S3-bucket" "sonam"{
 }
 
 provider "aws"{
-    region = "us-east-2"
+    region = "us-east-1"
 }
