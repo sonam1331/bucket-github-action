@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./s3git
+        working-directory: ./S3git
 
     steps:
       - name: checkout
