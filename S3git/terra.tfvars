@@ -1,1 +1,0 @@
-bucketname = "sonam2-bucket"
