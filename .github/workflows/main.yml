@@ -1,4 +1,4 @@
-name: S3bucket
+name: terraform
 
 on:
   #workflow_dispatch:
