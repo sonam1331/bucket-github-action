@@ -9,7 +9,7 @@ env:
   aws-region: us-east-1
   
 jobs:
-  terraform1:
+  job1:
     name: terraform
     runs-on: ubuntu-latest
     defaults:
