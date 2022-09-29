@@ -1,12 +1,13 @@
-resource "aws-S3-bucket" "sonam"{
-    bucket= var.bucketname
-    
-    tags={
-        owner = "sonam@cloudeq.com"
-        name = "sonam"
+resource "aws_s3_bucket" "sonam" {
+    bucket = var.bucketname
+
+    tags = {
+      name = "Learning actions"
+      enviroment= "dev"
     }
 }
 
 provider "aws"{
-    region = "us-east-1"
+    region= "us-east-1"
 }
+  
